@@ -1,6 +1,6 @@
 Spring Boot application that provides serveral endpoints to do a quiz matching quotes to their authors. The current DB is in-memory, so there is no data retention between runs.
 
-Things on the roadmap, but haven't been done (yet) due to time constraints are: Adding unit tests, Communicating with ChatGPT (or self hosted LLM) to provide hints with the questions, Improving the exception handling, it's a bit rough now, Improving the logging, it's a bit rough now
+Things on the roadmap, but haven't been done (yet) due to time constraints are: Adding unit tests, Communicating with ChatGPT (or self hosted LLM) to provide hints with the questions, Improving the exception handling (it's a bit rough now), Improving the logging (it's a bit rough now).
 
 The game is for the player to match the three quotes to their author given by the http://localhost:8080/question/{playerId) endpoint. The order in which the quotes are returned to the http://localhost:8080/question/answer doesn't matter as long as all quotes are matched with their author.
 
