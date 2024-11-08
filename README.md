@@ -19,19 +19,4 @@ http://localhost:8080/player/new --POST create a new player using a json in the 
 {"name":"Player Name"}
 
 http://localhost:8080/question/answer --POST attempt to answer the last question the player received in the format below. Returns a JSON object of the player database object
-{"playerId":"1",
- "quotes":[
-    {
-        "quote": "quote1",
-        "author": "author1"
-    },
-    {
-        "quote": "quote2",
-        "author": "quote2"
-    },
-    {
-        "quote": "quote3",
-        "author": "quote3"
-    }
-          ]
-}
+{"playerId":"1", "quotes":[{"quote": "quote1","author": "author1"},{"quote": "quote2","author": "quote2"},{"quote": "quote3","author": "quote3"}]}
