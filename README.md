@@ -10,9 +10,13 @@ The game is for the player to match the three quotes to their author given by th
 
 The following endpoints are available:
 http://localhost:8080/cachedQuotes/all ---GET Returns all quotes scraped and in the database
+
 http://localhost:8080/cachedQuotes/random --GET Returns a random quote
+
 http://localhost:8080/player/{playerId} --GET returns the player corresponding to {playerId}
+
 http://localhost:8080/question/{playerId) --GET generates and returns a question for player corresponding to {playerId}
+
 http://localhost:8080/highscore --GET returns the current sorted list of highscores
 
 http://localhost:8080/player/new --POST create a new player using a json in the format below. Returns a JSON object of the player database object
